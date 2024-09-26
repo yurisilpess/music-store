@@ -1,5 +1,5 @@
 
-# <h1 align="center">**Sportmax**</h1> 
+# <h1 align="center">**Musicality**</h1> 
 A aplicação web é desenvolvida utilizando React, uma biblioteca JavaScript poderosa para criar interfaces de usuário dinâmicas e interativas. O projeto se concentra em oferecer uma experiência fluida e envolvente para a navegação e compra de produtos esportivos. Para gerenciar a navegação entre as diferentes páginas e seções da aplicação, é utilizado o react-router-dom, uma solução robusta que permite a criação de rotas e a navegação condicional entre componentes.
 
 Além disso, o design da aplicação é aprimorado com o uso do styled-components, uma biblioteca que permite a estilização de componentes React utilizando a sintaxe de CSS-in-JS. Isso facilita a criação de um layout visualmente atraente e responsivo, garantindo que a experiência do usuário seja tanto funcional quanto esteticamente agradável. A combinação dessas tecnologias permite uma interface intuitiva e personalizável, ideal para apresentar e vender produtos esportivos de maneira eficiente e envolvente.
@@ -67,16 +67,6 @@ A aplicação `Sportmax` permite que usuários explorem produtos esportivos orga
 - Utilize o menu para acessar diferentes categorias.
 - Clique no botão comprar pra entrar em contato conosco.
 
-## Linguagens Utilizadas:
-
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="70" style="padding:20px 5px"/> <h1>React</h1>
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50" style="padding:20px" /><h1>JS</h1>
-<img src='https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg' width="70" style="padding:10px">
-<h1>HTML</h1>
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" width="50" style="padding:20px" /><h1>CSS</h1>
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" width="90" style="padding:20px" /><h1>Node.js</h1>
-
 ## Estrutura Usada:
 
     ProjetoFrontEnd-CP1/
@@ -102,6 +92,3 @@ A aplicação `Sportmax` permite que usuários explorem produtos esportivos orga
 | ------------- | ------ | ----- |
 | ![](https://img.shields.io/badge/DEV-João-47797a?style=for-the-badge&logo=github) | <a href="https://github.com/jota0802"><img src="https://avatars.githubusercontent.com/u/161319025?v=4" height="50" style="max-width: 100%;border-radius:30px;margin-right:30px; margin-top:20px"></a> | RM556790 |
 | ![](https://img.shields.io/badge/DEV-Yuri-70b2b4?style=for-the-badge&logo=github) | <a href="https://github.com/yurisilpess"><img src="https://avatars.githubusercontent.com/u/99032447?v=4" height="50" style="max-width: 100%;border-radius:30px;margin-right:30px;"></a> | RM557475 |
-| ![](https://img.shields.io/badge/DEV-Igor-7ca787?style=for-the-badge&logo=github) | <a href="https://github.com/igor-soos"><img src="https://avatars.githubusercontent.com/u/164360059?v=4" height="50" style="max-width: 100%; border-radius:30px;margin-right:30px;"></a> | RM556010 |
-| ![](https://img.shields.io/badge/DEV-Pietro-537064?style=for-the-badge&logo=github) | <a href="https://github.com/Pic0777"><img src="https://avatars.githubusercontent.com/u/162361580?v=4" height="50" style="max-width: 100%;border-radius:30px; margin-right:30px;"></a> | RM557283 |
-| ![](https://img.shields.io/badge/DEV-Gustavo-516b58?style=for-the-badge&logo=github) | <a href="https://github.com/gus7a2005"><img src="https://avatars.githubusercontent.com/u/161319479?v=4" height="50" style="max-width: 100%;border-radius:30px;margin-right:30px;"></a> | RM556289 |
