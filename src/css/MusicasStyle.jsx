@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProdutosStyle = styled.section`
+export const MusicasStyle = styled.section`
   width: 100%;
   background-color:#dcffe9;
 
@@ -23,7 +23,7 @@ export const ProdutosStyle = styled.section`
     margin: 2vw;
   }
 
-  .produtos {
+  .musicas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ export const ProdutosStyle = styled.section`
     margin-bottom: 10vh;
   }
 
-  .produto {
+  .musica {
     display: flex;
     flex-direction: column;
     margin: 2vw;
@@ -76,16 +76,19 @@ export const ProdutosStyle = styled.section`
     justify-content: center;
     padding: 1.6vw;
     text-decoration: none;
-    background-color: #285879;
+    background-color: #0a241e;
     border-bottom-left-radius: 1vw;
     border-bottom-right-radius: 1vw;
-    transition: 0.4s ease-in-out;
-    color: black;
+    transition: 0.2s ease-in-out;
+    color: #dcffe9;
     font-family: 'SubFont';
   }
 
   .btn:hover {
-    background-color: #f9f8f7;
+    background-color: #12473b;
+    border: 2px solid white;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
   }
 
   .btn:hover h2 {
