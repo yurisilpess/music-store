@@ -5,7 +5,7 @@ const Footer =()=> {
         <FooterStyle>
             <section className='Footer'>
                 <h5> 
-                    @2024 - Todos Direitos Reservados - SportMax
+                    @2024 - Todos Direitos Reservados - Musicality
                 </h5>
                     <a href="https://github.com/jota0802/ProjetoFrontEnd-CP1/blob/main/README.md"><i class="fi fi-brands-github"></i></a>
                     <a href=""><i class="fi fi-brands-whatsapp"></i></a>

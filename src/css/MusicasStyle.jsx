@@ -68,7 +68,7 @@ export const MusicasStyle = styled.section`
     justify-content: center;
     flex-direction: column;
     margin: 1vw;
-    background: linear-gradient(195deg, #1b3e90, #e58d51);
+    background: linear-gradient(195deg, #1e4294, #e58d51);
     border-radius: 1vw;
     box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
     flex-basis: 10%; /* Define uma base flexível para os produtos */
@@ -84,7 +84,7 @@ export const MusicasStyle = styled.section`
     justify-content: center;
     flex-direction: column;
     margin: 1vw;
-    background: linear-gradient(210deg, #557b76, #2d3f3f);
+    background: linear-gradient(45deg, #141f1d, #608787);
     border-radius: 1vw;
     box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
     transition: 0.3s ease-in-out;
