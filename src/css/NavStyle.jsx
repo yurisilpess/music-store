@@ -8,7 +8,8 @@ export const NavStyle = styled.section `
     position: fixed;
     width: 200vw;
     height: calc(1vw + 10px);
-    background-color:#15473b;
+    background-color: #15473b;
+    z-index: 1;
 }
 
 .nav{
@@ -21,7 +22,9 @@ export const NavStyle = styled.section `
     margin-top: 2vh;
     margin-left: 2.6vw; 
     align-items: center;
-    background-color: #15473b;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     list-style: none;
     border-radius: 1vh;
     box-shadow: 1vh 1vh 2vh rgba(0, 34, 8, 0.3); 
@@ -36,9 +39,9 @@ export const NavStyle = styled.section `
     margin: clamp(10px,5vw,16vw);
     text-decoration:none;
     font-size: clamp(8px , 1.4vw, 26px);
-    color: white;
+    color: #05100e;
     transition: 0.3s ease-in-out;
-    border: 2px solid #b0ffcd;
+    border: 2px solid #15473b;
     border-radius: 0%;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -55,7 +58,7 @@ export const NavStyle = styled.section `
 .Marca{
     margin-left: 4vw;
     font-size: clamp(0px,2.6vw, 3vw);
-    color:#ffff;
+    color: #15473b;
     font-family: 'GeneralBigFont';
     font-weight: bold;
 }

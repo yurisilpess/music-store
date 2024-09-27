@@ -13,6 +13,7 @@ import Musicas from './routes/Musicas.jsx'
 import Login from './routes/Login.jsx'
 import Sobre from './routes/Sobre.jsx'
 import Home from './routes/Home.jsx'
+import RickRoll from './routes/RickRoll.jsx'
 
 
 //criando a funcao Browser Router
@@ -30,7 +31,8 @@ const router = createBrowserRouter([
       {path:'/', element:<Home/>},
       {path:'/Login', element:<Login/>},
       {path:'/Musicas', element:<Musicas/>},
-      {path:'/Sobre', element:<Sobre/>}
+      {path:'/Sobre', element:<Sobre/>},
+      {path:'/RickRoll', element:<RickRoll/>}
     ]
   }
 ])

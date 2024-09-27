@@ -33,13 +33,14 @@ export const MusicasStyle = styled.section`
 
   .musica {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     margin: 1vw;
     background: linear-gradient(210deg, #5d0b29, #144c69);
     border-radius: 1vw;
     box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
     flex-basis: 10%; /* Define uma base flexível para os produtos */
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
   }
 
   .musica:hover {
@@ -48,9 +49,10 @@ export const MusicasStyle = styled.section`
 
   .musica2 {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     margin: 1vw;
-    background: linear-gradient(190deg, #fc2000, #477265);
+    background: linear-gradient(200deg, #fc2000, #5c698d);
     border-radius: 1vw;
     box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
     flex-basis: 10%; /* Define uma base flexível para os produtos */
@@ -63,9 +65,10 @@ export const MusicasStyle = styled.section`
 
   .musica3 {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     margin: 1vw;
-    background: linear-gradient(135deg, #1b3e90, #e58d51);
+    background: linear-gradient(195deg, #1b3e90, #e58d51);
     border-radius: 1vw;
     box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
     flex-basis: 10%; /* Define uma base flexível para os produtos */
@@ -78,6 +81,7 @@ export const MusicasStyle = styled.section`
 
   .musica4 {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     margin: 1vw;
     background: linear-gradient(210deg, #557b76, #2d3f3f);
@@ -88,6 +92,70 @@ export const MusicasStyle = styled.section`
   }
 
   .musica4:hover {
+    transform: scale(1.05);
+  }
+
+  .musica5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1vw;
+    background: linear-gradient(180deg, #f5e636, #58cad4);
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+    flex-basis: 10%;
+  }
+
+  .musica5:hover {
+    transform: scale(1.05);
+  }
+
+  .musica6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1vw;
+    background: linear-gradient(165deg, #286880, #e4621b);
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+    flex-basis: 10%;
+  }
+
+  .musica6:hover {
+    transform: scale(1.05);
+  }
+
+  .musica7 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1vw;
+    background: linear-gradient(120deg, #18395e, #a56d5b);
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+    flex-basis: 10%;
+  }
+
+  .musica7:hover {
+    transform: scale(1.05);
+  }
+
+  .musica8 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1vw;
+    background: linear-gradient(180deg, #56642f, #367dc1);
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+    flex-basis: 10%;
+  }
+
+  .musica8:hover {
     transform: scale(1.05);
   }
 
@@ -114,6 +182,7 @@ export const MusicasStyle = styled.section`
     text-align: center;
     font-size: 22px;
     font-family: 'HomepageFont';
+    word-wrap: break-word;
   }
 
   h2 {
@@ -127,6 +196,7 @@ export const MusicasStyle = styled.section`
     font-size: 18px;
     font-weight: 400;
     font-family: 'SemiBoldFont';
+    word-wrap: break-word;
   }
 
   .btn {
@@ -155,28 +225,82 @@ export const MusicasStyle = styled.section`
   @media (max-width: 1400px) {
     .musicas {
       flex-direction: column; /* Alinha os produtos verticalmente */
-      align-items: center;
+      display: flex;
       justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
     }
 
     .musica {
-      flex-basis: 50%; /* Produtos ocupam a largura total */
+      flex-basis: 60%; /* Produtos ocupam a largura total */
       margin-bottom: 2vh; /* Espaço entre os produtos */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
     }
 
     .musica2 {
-      flex-basis: 50%; /* Produtos ocupam a largura total */
+      flex-basis: 60%; /* Produtos ocupam a largura total */
       margin-bottom: 2vh; /* Espaço entre os produtos */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
     }
 
     .musica3 {
-      flex-basis: 50%; /* Produtos ocupam a largura total */
+      flex-basis: 60%; /* Produtos ocupam a largura total */
       margin-bottom: 2vh; /* Espaço entre os produtos */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
     }
 
     .musica4 {
-      flex-basis: 50%; /* Produtos ocupam a largura total */
+      flex-basis: 60%; /* Produtos ocupam a largura total */
       margin-bottom: 2vh; /* Espaço entre os produtos */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
+    }
+
+    .musica5 {
+      flex-basis: 60%; /* Produtos ocupam a largura total */
+      margin-bottom: 2vh; /* Espaço entre os produtos */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
+    }
+
+    .musica6 {
+      flex-basis: 60%; /* Produtos ocupam a largura total */
+      margin-bottom: 2vh; /* Espaço entre os produtos */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
+    }
+
+    .musica7 {
+      flex-basis: 60%; /* Produtos ocupam a largura total */
+      margin-bottom: 2vh; /* Espaço entre os produtos */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
+    }
+
+    .musica8 {
+      flex-basis: 60%; /* Produtos ocupam a largura total */
+      margin-bottom: 2vh; /* Espaço entre os produtos */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
     }
 
     .imagem {
@@ -185,8 +309,6 @@ export const MusicasStyle = styled.section`
     }
     .musica .imagem {
     }
-
-    
   }
 `;
 
