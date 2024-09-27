@@ -10,7 +10,7 @@ export const ProdutosStyle = styled.section`
     margin-top: calc(10vw + 60px);
     font-size: clamp(20px, 2.2vw, 35px);
     font-family: 'GeneralBigFont';
-    color: #0a241e;
+    color: #0a241e ;
   }
 
   h1 i {
