@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const ContatoStyle = styled.section `
+export const LoginStyle = styled.section `
         width: 100%;
         background-color:#dcffe9;
         min-height: 100vh;
@@ -10,7 +10,7 @@ section{
         justify-content:center;
 
 }
-.Contato_titulo{
+.Login_titulo{
         display:flex;
         align-items: center;
         justify-content: center;
@@ -19,7 +19,7 @@ section{
         font-family: 'GeneralBigFont';
         color: #0a241e;
 }
-.Contato_box{
+.Login_box{
         display: flex;
         flex-direction:column;
         align-items: center;

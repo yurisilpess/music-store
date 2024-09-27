@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const MusicasStyle = styled.section`
   width: 100%;
-  background-color:#dcffe9;
+  background: #dcffe9;
 
   h1 {
     display: flex;
     justify-content: center;
-    margin-top: calc(10vw + 60px);
+    margin-top: calc(6vw + 60px);
     font-size: clamp(20px, 2.2vw, 35px);
     font-family: 'GeneralBigFont';
-    color: #0a241e ;
+    color: #0a241e;
   }
 
   h1 i {
@@ -20,7 +20,7 @@ export const MusicasStyle = styled.section`
   section {
     display: flex;
     justify-content: center;
-    margin: 2vw;
+    margin: 1vw;
   }
 
   .musicas {
@@ -34,11 +34,61 @@ export const MusicasStyle = styled.section`
   .musica {
     display: flex;
     flex-direction: column;
-    margin: 2vw;
-    background-color: #232a2f;
+    margin: 1vw;
+    background: linear-gradient(210deg, #5d0b29, #144c69);
     border-radius: 1vw;
     box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
     flex-basis: 10%; /* Define uma base flexível para os produtos */
+    transition: 0.3s ease-in-out;
+  }
+
+  .musica:hover {
+    transform: scale(1.05);
+  }
+
+  .musica2 {
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    background: linear-gradient(190deg, #fc2000, #477265);
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
+    flex-basis: 10%; /* Define uma base flexível para os produtos */
+    transition: 0.3s ease-in-out;
+  }
+
+  .musica2:hover {
+    transform: scale(1.05);
+  }
+
+  .musica3 {
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    background: linear-gradient(135deg, #1b3e90, #e58d51);
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
+    flex-basis: 10%; /* Define uma base flexível para os produtos */
+    transition: 0.3s ease-in-out;
+  }
+
+  .musica3:hover {
+    transform: scale(1.05);
+  }
+
+  .musica4 {
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    background: linear-gradient(210deg, #557b76, #2d3f3f);
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+    flex-basis: 10%;
+  }
+
+  .musica4:hover {
+    transform: scale(1.05);
   }
 
   .imagem {
@@ -47,6 +97,14 @@ export const MusicasStyle = styled.section`
     width: clamp(200px,14vw,300px);
     height: clamp(200px,14vw,300px);
     margin: 2.6vw 2.6vw 1.6vw 2.6vw;
+    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.5);
+    border: 4px solid white;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .imagem:hover {
+    transform: scale(1.1);
   }
 
   p {
@@ -54,8 +112,8 @@ export const MusicasStyle = styled.section`
     color: white;
     overflow: visible;
     text-align: center;
-    font-size: 15px;
-    font-family: 'SubFont';
+    font-size: 22px;
+    font-family: 'HomepageFont';
   }
 
   h2 {
@@ -66,9 +124,9 @@ export const MusicasStyle = styled.section`
   }
 
   .preco {
-    font-size: 1vw;
+    font-size: 18px;
     font-weight: 400;
-    font-family: 'SubFont';
+    font-family: 'SemiBoldFont';
   }
 
   .btn {
@@ -76,24 +134,17 @@ export const MusicasStyle = styled.section`
     justify-content: center;
     padding: 1.6vw;
     text-decoration: none;
-    background-color: #0a241e;
+    background-color: black;
     border-bottom-left-radius: 1vw;
     border-bottom-right-radius: 1vw;
     transition: 0.2s ease-in-out;
-    color: #dcffe9;
+    color: white;
     font-family: 'SubFont';
   }
 
   .btn:hover {
-    background-color: #12473b;
-    border: 2px solid white;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
-  }
-
-  .btn:hover h2 {
-    scale: 1.03;
-    font-weight: 900;
   }
 
   a {
@@ -102,13 +153,28 @@ export const MusicasStyle = styled.section`
 
   /* Responsividade */
   @media (max-width: 1400px) {
-    .produtos {
+    .musicas {
       flex-direction: column; /* Alinha os produtos verticalmente */
       align-items: center;
       justify-content: center;
     }
 
-    .produto {
+    .musica {
+      flex-basis: 50%; /* Produtos ocupam a largura total */
+      margin-bottom: 2vh; /* Espaço entre os produtos */
+    }
+
+    .musica2 {
+      flex-basis: 50%; /* Produtos ocupam a largura total */
+      margin-bottom: 2vh; /* Espaço entre os produtos */
+    }
+
+    .musica3 {
+      flex-basis: 50%; /* Produtos ocupam a largura total */
+      margin-bottom: 2vh; /* Espaço entre os produtos */
+    }
+
+    .musica4 {
       flex-basis: 50%; /* Produtos ocupam a largura total */
       margin-bottom: 2vh; /* Espaço entre os produtos */
     }
@@ -117,8 +183,10 @@ export const MusicasStyle = styled.section`
       width: 24vw;
       height: 24vw;
     }
-    .produto .imagem {
+    .musica .imagem {
     }
+
+    
   }
 `;
 

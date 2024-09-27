@@ -10,7 +10,7 @@ import {createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import Error from './routes/Error.jsx'
 import Musicas from './routes/Musicas.jsx'
-import Contato from './routes/Contato.jsx'
+import Login from './routes/Login.jsx'
 import Sobre from './routes/Sobre.jsx'
 import Home from './routes/Home.jsx'
 
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
 
     children:[
       {path:'/', element:<Home/>},
-      {path:'/Contato', element:<Contato/>},
+      {path:'/Login', element:<Login/>},
       {path:'/Musicas', element:<Musicas/>},
       {path:'/Sobre', element:<Sobre/>}
     ]

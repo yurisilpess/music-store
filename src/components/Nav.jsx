@@ -11,8 +11,8 @@ const Nav =()=>{
                 <h1 className="Marca">Musicality</h1>
                 <Link to ='/' className="navlink">HOME</Link>
                 <Link to ='/Musicas' className="navlink">MÚSICAS</Link>
-                <Link to ='/Contato' className="navlink">CONTATO</Link>
                 <Link to ='/Sobre' className="navlink">SOBRE</Link>
+                <Link to ='/Login' className="navlink">LOGIN</Link>
             </section>
         </NavStyle>
     )
