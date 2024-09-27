@@ -10,7 +10,7 @@ const Nav =()=>{
             <section className="nav">
                 <h1 className="Marca">Musicality</h1>
                 <Link to ='/' className="navlink">HOME</Link>
-                <Link to ='/Produtos' className="navlink">PRODUTOS</Link>
+                <Link to ='/Musicas' className="navlink">MÚSICAS</Link>
                 <Link to ='/Contato' className="navlink">CONTATO</Link>
                 <Link to ='/Sobre' className="navlink">SOBRE</Link>
             </section>

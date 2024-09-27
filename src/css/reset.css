@@ -25,6 +25,12 @@
 }
 
 @font-face {
+    font-family: 'SmiBoldFont';
+    src: url('../assets/fonts/gg_sans_Semibold.ttf') format('truetype');
+    font-style: bold;
+}
+
+@font-face {
     font-family: 'GenMediumFont';
     src: url('../assets/fonts/Ginto_Nord_Regular.ttf') format('truetype');
     font-style: normal;

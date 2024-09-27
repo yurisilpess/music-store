@@ -9,7 +9,7 @@ import {createBrowserRouter, RouterProvider } from 'react-router-dom'
 //routes
 import App from './App.jsx'
 import Error from './routes/Error.jsx'
-import Produtos from './routes/Produtos.jsx'
+import Musicas from './routes/Musicas.jsx'
 import Contato from './routes/Contato.jsx'
 import Sobre from './routes/Sobre.jsx'
 import Home from './routes/Home.jsx'
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     children:[
       {path:'/', element:<Home/>},
       {path:'/Contato', element:<Contato/>},
-      {path:'/Produtos', element:<Produtos/>},
+      {path:'/Musicas', element:<Musicas/>},
       {path:'/Sobre', element:<Sobre/>}
     ]
   }
