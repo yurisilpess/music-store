@@ -27,144 +27,61 @@ export const MusicasStyle = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* Permite que os itens "quebrem" de linha em telas menores */
+    flex-wrap: wrap; /* Allows items to break to the next line on smaller screens */
     margin-bottom: 10vh;
+
+    /* Apply common styles for all music items */
+    > nav {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 1vw;
+      border-radius: 1vw;
+      box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
+      flex-basis: 10%; /* Flexible base for products */
+      transition: 0.4s ease-in-out;
+      background: linear-gradient(210deg, #5d0b29, #144c69); /* Default background color */
+    }
+
+    /* Individual item styles */
+    nav:nth-child(1) {
+      background: linear-gradient(210deg, #5d0b29, #144c69);
+    }
+    nav:nth-child(2) {
+      background: linear-gradient(200deg, #fc2000, #5c698d);
+    }
+    nav:nth-child(3) {
+      background: linear-gradient(195deg, #1e4294, #e58d51);
+    }
+    nav:nth-child(4) {
+      background: linear-gradient(45deg, #141f1d, #608787);
+    }
+    nav:nth-child(5) {
+      background: linear-gradient(180deg, #f5e636, #58cad4);
+    }
+    nav:nth-child(6) {
+      background: linear-gradient(165deg, #286880, #e4621b);
+    }
+    nav:nth-child(7) {
+      background: linear-gradient(120deg, #18395e, #a56d5b);
+    }
+    nav:nth-child(8) {
+      background: linear-gradient(180deg, #56642f, #367dc1);
+    }
+
+    nav:hover {
+      transform: scale(1.05);
+    }
   }
 
-  .musica {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1vw;
-    background: linear-gradient(210deg, #5d0b29, #144c69);
-    border-radius: 1vw;
-    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
-    flex-basis: 10%; /* Define uma base flexível para os produtos */
-    transition: 0.4s ease-in-out;
-  }
-
-  .musica:hover {
-    transform: scale(1.05);
-  }
-
-  .musica2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1vw;
-    background: linear-gradient(200deg, #fc2000, #5c698d);
-    border-radius: 1vw;
-    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
-    flex-basis: 10%; /* Define uma base flexível para os produtos */
-    transition: 0.3s ease-in-out;
-  }
-
-  .musica2:hover {
-    transform: scale(1.05);
-  }
-
-  .musica3 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1vw;
-    background: linear-gradient(195deg, #1e4294, #e58d51);
-    border-radius: 1vw;
-    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
-    flex-basis: 10%; /* Define uma base flexível para os produtos */
-    transition: 0.3s ease-in-out;
-  }
-
-  .musica3:hover {
-    transform: scale(1.05);
-  }
-
-  .musica4 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1vw;
-    background: linear-gradient(45deg, #141f1d, #608787);
-    border-radius: 1vw;
-    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
-    transition: 0.3s ease-in-out;
-    flex-basis: 10%;
-  }
-
-  .musica4:hover {
-    transform: scale(1.05);
-  }
-
-  .musica5 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1vw;
-    background: linear-gradient(180deg, #f5e636, #58cad4);
-    border-radius: 1vw;
-    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
-    transition: 0.3s ease-in-out;
-    flex-basis: 10%;
-  }
-
-  .musica5:hover {
-    transform: scale(1.05);
-  }
-
-  .musica6 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1vw;
-    background: linear-gradient(165deg, #286880, #e4621b);
-    border-radius: 1vw;
-    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
-    transition: 0.3s ease-in-out;
-    flex-basis: 10%;
-  }
-
-  .musica6:hover {
-    transform: scale(1.05);
-  }
-
-  .musica7 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1vw;
-    background: linear-gradient(120deg, #18395e, #a56d5b);
-    border-radius: 1vw;
-    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
-    transition: 0.3s ease-in-out;
-    flex-basis: 10%;
-  }
-
-  .musica7:hover {
-    transform: scale(1.05);
-  }
-
-  .musica8 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1vw;
-    background: linear-gradient(180deg, #56642f, #367dc1);
-    border-radius: 1vw;
-    box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.3);
-    transition: 0.3s ease-in-out;
-    flex-basis: 10%;
-  }
-
-  .musica8:hover {
-    transform: scale(1.05);
-  }
-
+  /* Image styles */
   .imagem {
     display: flex;
     justify-content: center;
-    width: clamp(200px,14vw,300px);
-    height: clamp(200px,14vw,300px);
-    margin: 2.6vw 2.6vw 1.6vw 2.6vw;
+    align-items: center;
+    width: clamp(200px, 14vw, 300px);
+    height: clamp(200px, 14vw, 300px);
+    margin: 2.6vw;
     box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.5);
     border: 4px solid white;
     border-radius: 8px;
@@ -221,82 +138,19 @@ export const MusicasStyle = styled.section`
     text-decoration: none;
   }
 
-  /* Responsividade */
+  /* Responsiveness */
   @media (max-width: 1400px) {
     .musicas {
-      flex-direction: column; /* Alinha os produtos verticalmente */
+      flex-direction: column; /* Align products vertically */
       display: flex;
       justify-content: center;
       align-items: center;
       word-wrap: break-word;
     }
 
-    .musica {
-      flex-basis: 60%; /* Produtos ocupam a largura total */
-      margin-bottom: 2vh; /* Espaço entre os produtos */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      word-wrap: break-word;
-    }
-
-    .musica2 {
-      flex-basis: 60%; /* Produtos ocupam a largura total */
-      margin-bottom: 2vh; /* Espaço entre os produtos */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      word-wrap: break-word;
-    }
-
-    .musica3 {
-      flex-basis: 60%; /* Produtos ocupam a largura total */
-      margin-bottom: 2vh; /* Espaço entre os produtos */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      word-wrap: break-word;
-    }
-
-    .musica4 {
-      flex-basis: 60%; /* Produtos ocupam a largura total */
-      margin-bottom: 2vh; /* Espaço entre os produtos */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      word-wrap: break-word;
-    }
-
-    .musica5 {
-      flex-basis: 60%; /* Produtos ocupam a largura total */
-      margin-bottom: 2vh; /* Espaço entre os produtos */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      word-wrap: break-word;
-    }
-
-    .musica6 {
-      flex-basis: 60%; /* Produtos ocupam a largura total */
-      margin-bottom: 2vh; /* Espaço entre os produtos */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      word-wrap: break-word;
-    }
-
-    .musica7 {
-      flex-basis: 60%; /* Produtos ocupam a largura total */
-      margin-bottom: 2vh; /* Espaço entre os produtos */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      word-wrap: break-word;
-    }
-
-    .musica8 {
-      flex-basis: 60%; /* Produtos ocupam a largura total */
-      margin-bottom: 2vh; /* Espaço entre os produtos */
+    nav {
+      flex-basis: 100%; /* Products take full width */
+      margin-bottom: 2vh; /* Space between products */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -304,12 +158,10 @@ export const MusicasStyle = styled.section`
     }
 
     .imagem {
-      width: 24vw;
-      height: 24vw;
-    }
-    .musica .imagem {
+      width: 25vw;
+      height: 25vw;
+      align-items: center;
+      justify-content: center;
     }
   }
 `;
-
-
